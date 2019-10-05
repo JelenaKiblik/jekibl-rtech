@@ -8,6 +8,7 @@
   <xacro:property name="baselen" value="0.4" />
   <xacro:property name="wheeldiam" value="0.07" />
   <xacro:property name="pi" value="3.1415" />
+  <xacro:property name="footprintlen" value="0.17" />
 
   <material name="blue">
     <color rgba="0 0 0.8 1"/>
@@ -256,5 +257,13 @@
     <child link="lense"/>
     <origin xyz="0 0 0"/>
   </joint>	
+
+  <link name="base_footprint" />
+
+  <joint name="base_footprint_base_link_joint" type="fixed">
+    <parent link="base_footprint"/>
+    <child link="base_link"/>
+    <origin xyz="0 0 ${leglen/2 + wheeldiam + 0.1}"/>
+  </joint>
 
 </robot>
