@@ -1,0 +1,6 @@
+<launch>
+  <param name="robot_description" command="$(find xacro)/xacro.py '$(find my_r2d2)/urdf/​r2d2.urdf'"/>
+  <node name="robot_state_publicher" pkg="robot_state_publicher" type="state_publicher"/>
+  <node name="join_state_publicher" pkg="join_state_publicher" type="join_state_publicher"/>
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find my_r2d2)/config/r2d2.rviz"/>
+</launch>
