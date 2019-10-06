@@ -105,7 +105,6 @@ Visualization Manager:
           Alpha: 1
           Show Axes: false
           Show Trail: false
-          Value: true
         left_leg:
           Alpha: 1
           Show Axes: false
@@ -115,7 +114,6 @@ Visualization Manager:
           Alpha: 1
           Show Axes: false
           Show Trail: false
-          Value: true
         lens:
           Alpha: 1
           Show Axes: false
@@ -140,7 +138,6 @@ Visualization Manager:
           Alpha: 1
           Show Axes: false
           Show Trail: false
-          Value: true
         right_leg:
           Alpha: 1
           Show Axes: false
@@ -150,7 +147,6 @@ Visualization Manager:
           Alpha: 1
           Show Axes: false
           Show Trail: false
-          Value: true
       Name: RobotModel
       Robot Description: robot_description
       TF Prefix: ""
@@ -186,6 +182,8 @@ Visualization Manager:
           Value: true
         lens:
           Value: true
+        odom:
+          Value: true
         right_back_wheel:
           Value: true
         right_base:
@@ -204,32 +202,32 @@ Visualization Manager:
       Show Axes: true
       Show Names: true
       Tree:
-        base_link:
+        odom:
           base_footprint:
-            {}
-          gripper_pole:
-            left_gripper:
-              left_tip:
-                {}
-            right_gripper:
-              right_tip:
-                {}
-          head:
-            box:
-              lens:
-                {}
-          left_leg:
-            left_base:
-              left_back_wheel:
-                {}
-              left_front_wheel:
-                {}
-          right_leg:
-            right_base:
-              right_back_wheel:
-                {}
-              right_front_wheel:
-                {}
+            base_link:
+              gripper_pole:
+                left_gripper:
+                  left_tip:
+                    {}
+                right_gripper:
+                  right_tip:
+                    {}
+              head:
+                box:
+                  lens:
+                    {}
+              left_leg:
+                left_base:
+                  left_back_wheel:
+                    {}
+                  left_front_wheel:
+                    {}
+              right_leg:
+                right_base:
+                  right_back_wheel:
+                    {}
+                  right_front_wheel:
+                    {}
       Update Interval: 0
       Value: true
   Enabled: true
@@ -257,7 +255,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 2.26704884
+      Distance: 5.01172209
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.0599999987
         Stereo Focal Distance: 1
@@ -272,10 +270,10 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.00999999978
-      Pitch: 0.224796802
+      Pitch: 0.814795852
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 0.0685773045
+      Yaw: 0.42358613
     Saved: ~
 Window Geometry:
   Displays:
@@ -293,6 +291,5 @@ Window Geometry:
   Views:
     collapsed: false
   Width: 1216
-  X: 147
-  Y: 54
-
+  X: 689
+  Y: 38
