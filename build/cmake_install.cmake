@@ -128,7 +128,6 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/ubuntu/jekibl-rtech/build/gtest/cmake_install.cmake")
   include("/home/ubuntu/jekibl-rtech/build/beginner_tutorials/cmake_install.cmake")
   include("/home/ubuntu/jekibl-rtech/build/my_r2d2/cmake_install.cmake")
-  include("/home/ubuntu/jekibl-rtech/build/r2d2_navigator/cmake_install.cmake")
 
 endif()
 

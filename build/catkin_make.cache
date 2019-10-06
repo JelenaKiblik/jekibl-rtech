@@ -1,2 +1,2 @@
-beginner_tutorials:my_r2d2:r2d2_navigator
+beginner_tutorials:my_r2d2
 -DCATKIN_DEVEL_PREFIX=/home/ubuntu/jekibl-rtech/devel -DCMAKE_INSTALL_PREFIX=/home/ubuntu/jekibl-rtech/install -G Unix Makefiles
