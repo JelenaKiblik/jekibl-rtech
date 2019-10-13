@@ -255,19 +255,26 @@
     <xacro:default_inertial mass="0.02"/>
   </link>
 
+  <joint name="box_lens_joint" type="fixed">
+    <parent link="box"/>
+    <child link="lens"/>
+    <origin xyz="0 0 0" rpy="${3*pi/2} ${2*pi} ${3*pi/2}"/>
+  </joint>
+
+  <link name="eye"/>
+
+  <joint name="lens_eye_joint" type="fixed">
+    <parent link="lens"/>
+    <child link="eye"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
   <joint name="tobox" type="fixed">
     <parent link="head"/>
     <child link="box"/>
     <origin xyz="${.707*width+0.04} 0 ${.707*width}"/>
   </joint>
 
-  <joint name="box_lens_connect" type="fixed">
-    <parent link="box"/>
-    <child link="lens"/>
-    <origin xyz="0 0 0" rpy="0 ${pi/2} 0"/>
-  </joint>
-
 </robot>
-
 
 
