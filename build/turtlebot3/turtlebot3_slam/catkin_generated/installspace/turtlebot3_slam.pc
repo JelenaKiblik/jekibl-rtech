@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/jekibl-rtech/install
+
+Name: turtlebot3_slam
+Description: Description of turtlebot3_slam
+Version: 1.2.1
+Cflags: -I/home/ubuntu/jekibl-rtech/install/include
+Libs: -L/home/ubuntu/jekibl-rtech/install/lib 
+Requires: roscpp sensor_msgs

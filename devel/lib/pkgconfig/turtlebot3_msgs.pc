@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/jekibl-rtech/devel
+
+Name: turtlebot3_msgs
+Description: Description of turtlebot3_msgs
+Version: 1.0.0
+Cflags: -I/home/ubuntu/jekibl-rtech/devel/include
+Libs: -L/home/ubuntu/jekibl-rtech/devel/lib 
+Requires: std_msgs message_runtime
