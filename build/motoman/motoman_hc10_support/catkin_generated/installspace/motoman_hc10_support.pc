@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/jekibl-rtech/install
+
+Name: motoman_hc10_support
+Description: Description of motoman_hc10_support
+Version: 0.1.0
+Cflags: 
+Libs: -L/home/ubuntu/jekibl-rtech/install/lib 
+Requires: 

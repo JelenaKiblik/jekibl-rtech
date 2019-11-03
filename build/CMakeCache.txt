@@ -787,6 +787,9 @@ camera_info_manager_DIR:PATH=/opt/ros/kinetic/share/camera_info_manager/cmake
 //The directory containing a CMake configuration file for catkin.
 catkin_DIR:PATH=/opt/ros/kinetic/share/catkin/cmake
 
+//The directory containing a CMake configuration file for chomp_motion_planner.
+chomp_motion_planner_DIR:PATH=/opt/ros/kinetic/share/chomp_motion_planner/cmake
+
 //The directory containing a CMake configuration file for class_loader.
 class_loader_DIR:PATH=/opt/ros/kinetic/share/class_loader/cmake
 
@@ -795,6 +798,21 @@ cmake_modules_DIR:PATH=/opt/ros/kinetic/share/cmake_modules/cmake
 
 //Dependencies for target
 complementary_filter_LIB_DEPENDS:STATIC=
+
+//The directory containing a CMake configuration file for control_msgs.
+control_msgs_DIR:PATH=/opt/ros/kinetic/share/control_msgs/cmake
+
+//The directory containing a CMake configuration file for control_toolbox.
+control_toolbox_DIR:PATH=/opt/ros/kinetic/share/control_toolbox/cmake
+
+//The directory containing a CMake configuration file for controller_interface.
+controller_interface_DIR:PATH=/opt/ros/kinetic/share/controller_interface/cmake
+
+//The directory containing a CMake configuration file for controller_manager.
+controller_manager_DIR:PATH=/opt/ros/kinetic/share/controller_manager/cmake
+
+//The directory containing a CMake configuration file for controller_manager_msgs.
+controller_manager_msgs_DIR:PATH=/opt/ros/kinetic/share/controller_manager_msgs/cmake
 
 //The directory containing a CMake configuration file for cpp_common.
 cpp_common_DIR:PATH=/opt/ros/kinetic/share/cpp_common/cmake
@@ -819,6 +837,15 @@ dynamic_reconfigure_DIR:PATH=/opt/ros/kinetic/share/dynamic_reconfigure/cmake
 
 //The directory containing a CMake configuration file for eigen_conversions.
 eigen_conversions_DIR:PATH=/opt/ros/kinetic/share/eigen_conversions/cmake
+
+//The directory containing a CMake configuration file for eigen_stl_containers.
+eigen_stl_containers_DIR:PATH=/opt/ros/kinetic/share/eigen_stl_containers/cmake
+
+//Value Computed by CMake
+examples_BINARY_DIR:STATIC=/home/ubuntu/jekibl-rtech/build/xarm_ros/examples
+
+//Value Computed by CMake
+examples_SOURCE_DIR:STATIC=/home/ubuntu/jekibl-rtech/src/xarm_ros/examples
 
 //The directory containing a CMake configuration file for gazebo.
 gazebo_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/gazebo
@@ -850,6 +877,9 @@ gennodejs_DIR:PATH=/opt/ros/kinetic/share/gennodejs/cmake
 //The directory containing a CMake configuration file for genpy.
 genpy_DIR:PATH=/opt/ros/kinetic/share/genpy/cmake
 
+//The directory containing a CMake configuration file for geometric_shapes.
+geometric_shapes_DIR:PATH=/opt/ros/kinetic/share/geometric_shapes/cmake
+
 //The directory containing a CMake configuration file for geometry_msgs.
 geometry_msgs_DIR:PATH=/opt/ros/kinetic/share/geometry_msgs/cmake
 
@@ -867,6 +897,9 @@ gmock_build_tests:BOOL=OFF
 
 //Dependencies for the target
 gmock_main_LIB_DEPENDS:STATIC=general;-lpthread;
+
+//The directory containing a CMake configuration file for graph_msgs.
+graph_msgs_DIR:PATH=/opt/ros/kinetic/share/graph_msgs/cmake
 
 //Value Computed by CMake
 gtest_BINARY_DIR:STATIC=/home/ubuntu/jekibl-rtech/build/gtest/gtest
@@ -892,6 +925,9 @@ gtest_force_shared_crt:BOOL=OFF
 
 //Dependencies for the target
 gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
+
+//The directory containing a CMake configuration file for hardware_interface.
+hardware_interface_DIR:PATH=/opt/ros/kinetic/share/hardware_interface/cmake
 
 //The directory containing a CMake configuration file for ignition-math2.
 ignition-math2_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/ignition-math2
@@ -971,14 +1007,32 @@ imu_tools_BINARY_DIR:STATIC=/home/ubuntu/jekibl-rtech/build/imu_tools/imu_tools
 //Value Computed by CMake
 imu_tools_SOURCE_DIR:STATIC=/home/ubuntu/jekibl-rtech/src/imu_tools/imu_tools
 
+//The directory containing a CMake configuration file for industrial_msgs.
+industrial_msgs_DIR:PATH=/opt/ros/kinetic/share/industrial_msgs/cmake
+
+//The directory containing a CMake configuration file for industrial_robot_client.
+industrial_robot_client_DIR:PATH=/opt/ros/kinetic/share/industrial_robot_client/cmake
+
+//The directory containing a CMake configuration file for industrial_utils.
+industrial_utils_DIR:PATH=/opt/ros/kinetic/share/industrial_utils/cmake
+
 //The directory containing a CMake configuration file for interactive_markers.
 interactive_markers_DIR:PATH=/opt/ros/kinetic/share/interactive_markers/cmake
+
+//The directory containing a CMake configuration file for joint_state_controller.
+joint_state_controller_DIR:PATH=/opt/ros/kinetic/share/joint_state_controller/cmake
+
+//The directory containing a CMake configuration file for kdl_conversions.
+kdl_conversions_DIR:PATH=/opt/ros/kinetic/share/kdl_conversions/cmake
+
+//The directory containing a CMake configuration file for kdl_parser.
+kdl_parser_DIR:PATH=/opt/ros/kinetic/share/kdl_parser/cmake
 
 //The directory containing a CMake configuration file for laser_geometry.
 laser_geometry_DIR:PATH=/opt/ros/kinetic/share/laser_geometry/cmake
 
 //Path to a library.
-lib:FILEPATH=/opt/ros/kinetic/lib/libxmlrpcpp.so
+lib:FILEPATH=/opt/ros/kinetic/lib/libmoveit_move_group_capabilities_base.so
 
 //The directory containing a CMake configuration file for map_msgs.
 map_msgs_DIR:PATH=/opt/ros/kinetic/share/map_msgs/cmake
@@ -991,6 +1045,174 @@ message_generation_DIR:PATH=/opt/ros/kinetic/share/message_generation/cmake
 
 //The directory containing a CMake configuration file for message_runtime.
 message_runtime_DIR:PATH=/opt/ros/kinetic/share/message_runtime/cmake
+
+//Value Computed by CMake
+motoman_BINARY_DIR:STATIC=/home/ubuntu/jekibl-rtech/build/motoman/motoman
+
+//Value Computed by CMake
+motoman_SOURCE_DIR:STATIC=/home/ubuntu/jekibl-rtech/src/motoman/motoman
+
+//Value Computed by CMake
+motoman_driver_BINARY_DIR:STATIC=/home/ubuntu/jekibl-rtech/build/motoman/motoman_driver
+
+//Value Computed by CMake
+motoman_driver_SOURCE_DIR:STATIC=/home/ubuntu/jekibl-rtech/src/motoman/motoman_driver
+
+//Value Computed by CMake
+motoman_gp12_support_BINARY_DIR:STATIC=/home/ubuntu/jekibl-rtech/build/motoman/motoman_gp12_support
+
+//Value Computed by CMake
+motoman_gp12_support_SOURCE_DIR:STATIC=/home/ubuntu/jekibl-rtech/src/motoman/motoman_gp12_support
+
+//Value Computed by CMake
+motoman_gp180_support_BINARY_DIR:STATIC=/home/ubuntu/jekibl-rtech/build/motoman/motoman_gp180_support
+
+//Value Computed by CMake
+motoman_gp180_support_SOURCE_DIR:STATIC=/home/ubuntu/jekibl-rtech/src/motoman/motoman_gp180_support
+
+//Value Computed by CMake
+motoman_gp7_support_BINARY_DIR:STATIC=/home/ubuntu/jekibl-rtech/build/motoman/motoman_gp7_support
+
+//Value Computed by CMake
+motoman_gp7_support_SOURCE_DIR:STATIC=/home/ubuntu/jekibl-rtech/src/motoman/motoman_gp7_support
+
+//Value Computed by CMake
+motoman_gp8_support_BINARY_DIR:STATIC=/home/ubuntu/jekibl-rtech/build/motoman/motoman_gp8_support
+
+//Value Computed by CMake
+motoman_gp8_support_SOURCE_DIR:STATIC=/home/ubuntu/jekibl-rtech/src/motoman/motoman_gp8_support
+
+//Value Computed by CMake
+motoman_hc10_support_BINARY_DIR:STATIC=/home/ubuntu/jekibl-rtech/build/motoman/motoman_hc10_support
+
+//Value Computed by CMake
+motoman_hc10_support_SOURCE_DIR:STATIC=/home/ubuntu/jekibl-rtech/src/motoman/motoman_hc10_support
+
+//Dependencies for the target
+motoman_industrial_robot_client_LIB_DEPENDS:STATIC=general;industrial_robot_client;general;industrial_utils;
+
+//Dependencies for the target
+motoman_industrial_robot_client_bswap_LIB_DEPENDS:STATIC=general;industrial_robot_client_bswap;general;industrial_utils;
+
+//Value Computed by CMake
+motoman_mh12_support_BINARY_DIR:STATIC=/home/ubuntu/jekibl-rtech/build/motoman/motoman_mh12_support
+
+//Value Computed by CMake
+motoman_mh12_support_SOURCE_DIR:STATIC=/home/ubuntu/jekibl-rtech/src/motoman/motoman_mh12_support
+
+//Value Computed by CMake
+motoman_mh50_support_BINARY_DIR:STATIC=/home/ubuntu/jekibl-rtech/build/motoman/motoman_mh50_support
+
+//Value Computed by CMake
+motoman_mh50_support_SOURCE_DIR:STATIC=/home/ubuntu/jekibl-rtech/src/motoman/motoman_mh50_support
+
+//Value Computed by CMake
+motoman_mh5_support_BINARY_DIR:STATIC=/home/ubuntu/jekibl-rtech/build/motoman/motoman_mh5_support
+
+//Value Computed by CMake
+motoman_mh5_support_SOURCE_DIR:STATIC=/home/ubuntu/jekibl-rtech/src/motoman/motoman_mh5_support
+
+//Value Computed by CMake
+motoman_motomini_support_BINARY_DIR:STATIC=/home/ubuntu/jekibl-rtech/build/motoman/motoman_motomini_support
+
+//Value Computed by CMake
+motoman_motomini_support_SOURCE_DIR:STATIC=/home/ubuntu/jekibl-rtech/src/motoman/motoman_motomini_support
+
+//Value Computed by CMake
+motoman_msgs_BINARY_DIR:STATIC=/home/ubuntu/jekibl-rtech/build/motoman/motoman_msgs
+
+//The directory containing a CMake configuration file for motoman_msgs.
+motoman_msgs_DIR:PATH=/home/ubuntu/jekibl-rtech/devel/share/motoman_msgs/cmake
+
+//Value Computed by CMake
+motoman_msgs_SOURCE_DIR:STATIC=/home/ubuntu/jekibl-rtech/src/motoman/motoman_msgs
+
+//Value Computed by CMake
+motoman_sda10f_moveit_config_BINARY_DIR:STATIC=/home/ubuntu/jekibl-rtech/build/motoman/motoman_sda10f_moveit_config
+
+//Value Computed by CMake
+motoman_sda10f_moveit_config_SOURCE_DIR:STATIC=/home/ubuntu/jekibl-rtech/src/motoman/motoman_sda10f_moveit_config
+
+//Value Computed by CMake
+motoman_sda10f_support_BINARY_DIR:STATIC=/home/ubuntu/jekibl-rtech/build/motoman/motoman_sda10f_support
+
+//Value Computed by CMake
+motoman_sda10f_support_SOURCE_DIR:STATIC=/home/ubuntu/jekibl-rtech/src/motoman/motoman_sda10f_support
+
+//Value Computed by CMake
+motoman_sia10d_support_BINARY_DIR:STATIC=/home/ubuntu/jekibl-rtech/build/motoman/motoman_sia10d_support
+
+//Value Computed by CMake
+motoman_sia10d_support_SOURCE_DIR:STATIC=/home/ubuntu/jekibl-rtech/src/motoman/motoman_sia10d_support
+
+//Value Computed by CMake
+motoman_sia10f_support_BINARY_DIR:STATIC=/home/ubuntu/jekibl-rtech/build/motoman/motoman_sia10f_support
+
+//Value Computed by CMake
+motoman_sia10f_support_SOURCE_DIR:STATIC=/home/ubuntu/jekibl-rtech/src/motoman/motoman_sia10f_support
+
+//Value Computed by CMake
+motoman_sia20d_moveit_config_BINARY_DIR:STATIC=/home/ubuntu/jekibl-rtech/build/motoman/motoman_sia20d_moveit_config
+
+//Value Computed by CMake
+motoman_sia20d_moveit_config_SOURCE_DIR:STATIC=/home/ubuntu/jekibl-rtech/src/motoman/motoman_sia20d_moveit_config
+
+//Value Computed by CMake
+motoman_sia20d_support_BINARY_DIR:STATIC=/home/ubuntu/jekibl-rtech/build/motoman/motoman_sia20d_support
+
+//Value Computed by CMake
+motoman_sia20d_support_SOURCE_DIR:STATIC=/home/ubuntu/jekibl-rtech/src/motoman/motoman_sia20d_support
+
+//Value Computed by CMake
+motoman_sia5d_moveit_config_BINARY_DIR:STATIC=/home/ubuntu/jekibl-rtech/build/motoman_sia5d_moveit_config
+
+//Value Computed by CMake
+motoman_sia5d_moveit_config_SOURCE_DIR:STATIC=/home/ubuntu/jekibl-rtech/src/motoman_sia5d_moveit_config
+
+//Value Computed by CMake
+motoman_sia5d_support_BINARY_DIR:STATIC=/home/ubuntu/jekibl-rtech/build/motoman/motoman_sia5d_support
+
+//Value Computed by CMake
+motoman_sia5d_support_SOURCE_DIR:STATIC=/home/ubuntu/jekibl-rtech/src/motoman/motoman_sia5d_support
+
+//Dependencies for the target
+motoman_simple_message_LIB_DEPENDS:STATIC=general;simple_message;
+
+//Dependencies for the target
+motoman_simple_message_bswap_LIB_DEPENDS:STATIC=general;simple_message_bswap;
+
+//Value Computed by CMake
+movegroup_interface_demo_BINARY_DIR:STATIC=/home/ubuntu/jekibl-rtech/build/movegroup_interface_demo
+
+//Value Computed by CMake
+movegroup_interface_demo_SOURCE_DIR:STATIC=/home/ubuntu/jekibl-rtech/src/movegroup_interface_demo
+
+//The directory containing a CMake configuration file for moveit_core.
+moveit_core_DIR:PATH=/opt/ros/kinetic/share/moveit_core/cmake
+
+//The directory containing a CMake configuration file for moveit_msgs.
+moveit_msgs_DIR:PATH=/opt/ros/kinetic/share/moveit_msgs/cmake
+
+//The directory containing a CMake configuration file for moveit_ros_manipulation.
+moveit_ros_manipulation_DIR:PATH=/opt/ros/kinetic/share/moveit_ros_manipulation/cmake
+
+//The directory containing a CMake configuration file for moveit_ros_move_group.
+moveit_ros_move_group_DIR:PATH=/opt/ros/kinetic/share/moveit_ros_move_group/cmake
+
+//The directory containing a CMake configuration file for moveit_ros_perception.
+moveit_ros_perception_DIR:PATH=/opt/ros/kinetic/share/moveit_ros_perception/cmake
+
+//The directory containing a CMake configuration file for moveit_ros_planning.
+moveit_ros_planning_DIR:PATH=/opt/ros/kinetic/share/moveit_ros_planning/cmake
+
+//The directory containing a CMake configuration file for moveit_ros_planning_interface.
+moveit_ros_planning_interface_DIR:PATH=/opt/ros/kinetic/share/moveit_ros_planning_interface/cmake
+
+//The directory containing a CMake configuration file for moveit_ros_warehouse.
+moveit_ros_warehouse_DIR:PATH=/opt/ros/kinetic/share/moveit_ros_warehouse/cmake
+
+//The directory containing a CMake configuration file for moveit_visual_tools.
+moveit_visual_tools_DIR:PATH=/opt/ros/kinetic/share/moveit_visual_tools/cmake
 
 //Value Computed by CMake
 my_r2d2_BINARY_DIR:STATIC=/home/ubuntu/jekibl-rtech/build/my_r2d2
@@ -1007,8 +1229,20 @@ nodelet_DIR:PATH=/opt/ros/kinetic/share/nodelet/cmake
 //The directory containing a CMake configuration file for nodelet_topic_tools.
 nodelet_topic_tools_DIR:PATH=/opt/ros/kinetic/share/nodelet_topic_tools/cmake
 
+//The directory containing a CMake configuration file for object_recognition_msgs.
+object_recognition_msgs_DIR:PATH=/opt/ros/kinetic/share/object_recognition_msgs/cmake
+
+//The directory containing a CMake configuration file for octomap_msgs.
+octomap_msgs_DIR:PATH=/opt/ros/kinetic/share/octomap_msgs/cmake
+
 //Path to a library.
 onelib:FILEPATH=/usr/lib/x86_64-linux-gnu/libignition-math2.so
+
+//Value Computed by CMake
+panda_moveit_config_BINARY_DIR:STATIC=/home/ubuntu/jekibl-rtech/build/panda_moveit_config
+
+//Value Computed by CMake
+panda_moveit_config_SOURCE_DIR:STATIC=/home/ubuntu/jekibl-rtech/src/panda_moveit_config
 
 //The directory containing a CMake configuration file for pluginlib.
 pluginlib_DIR:PATH=/opt/ros/kinetic/share/pluginlib/cmake
@@ -1018,6 +1252,12 @@ r2d2_navigator_BINARY_DIR:STATIC=/home/ubuntu/jekibl-rtech/build/r2d2_navigator
 
 //Value Computed by CMake
 r2d2_navigator_SOURCE_DIR:STATIC=/home/ubuntu/jekibl-rtech/src/r2d2_navigator
+
+//The directory containing a CMake configuration file for random_numbers.
+random_numbers_DIR:PATH=/opt/ros/kinetic/share/random_numbers/cmake
+
+//The directory containing a CMake configuration file for realtime_tools.
+realtime_tools_DIR:PATH=/opt/ros/kinetic/share/realtime_tools/cmake
 
 //The directory containing a CMake configuration file for resource_retriever.
 resource_retriever_DIR:PATH=/opt/ros/kinetic/share/resource_retriever/cmake
@@ -1043,8 +1283,14 @@ rosgraph_DIR:PATH=/opt/ros/kinetic/share/rosgraph/cmake
 //The directory containing a CMake configuration file for rosgraph_msgs.
 rosgraph_msgs_DIR:PATH=/opt/ros/kinetic/share/rosgraph_msgs/cmake
 
+//The directory containing a CMake configuration file for roslaunch.
+roslaunch_DIR:PATH=/opt/ros/kinetic/share/roslaunch/cmake
+
 //The directory containing a CMake configuration file for roslib.
 roslib_DIR:PATH=/opt/ros/kinetic/share/roslib/cmake
+
+//The directory containing a CMake configuration file for roslint.
+roslint_DIR:PATH=/opt/ros/kinetic/share/roslint/cmake
 
 //The directory containing a CMake configuration file for rospack.
 rospack_DIR:PATH=/opt/ros/kinetic/share/rospack/cmake
@@ -1070,11 +1316,23 @@ rviz_imu_plugin_LIB_DEPENDS:STATIC=general;Qt5::Widgets;general;/opt/ros/kinetic
 //Value Computed by CMake
 rviz_imu_plugin_SOURCE_DIR:STATIC=/home/ubuntu/jekibl-rtech/src/imu_tools/rviz_imu_plugin
 
+//The directory containing a CMake configuration file for rviz_visual_tools.
+rviz_visual_tools_DIR:PATH=/opt/ros/kinetic/share/rviz_visual_tools/cmake
+
 //The directory containing a CMake configuration file for sensor_msgs.
 sensor_msgs_DIR:PATH=/opt/ros/kinetic/share/sensor_msgs/cmake
 
+//The directory containing a CMake configuration file for shape_msgs.
+shape_msgs_DIR:PATH=/opt/ros/kinetic/share/shape_msgs/cmake
+
+//The directory containing a CMake configuration file for simple_message.
+simple_message_DIR:PATH=/opt/ros/kinetic/share/simple_message/cmake
+
 //The directory containing a CMake configuration file for smclib.
 smclib_DIR:PATH=/opt/ros/kinetic/share/smclib/cmake
+
+//The directory containing a CMake configuration file for srdfdom.
+srdfdom_DIR:PATH=/opt/ros/kinetic/share/srdfdom/cmake
 
 //The directory containing a CMake configuration file for std_msgs.
 std_msgs_DIR:PATH=/opt/ros/kinetic/share/std_msgs/cmake
@@ -1094,6 +1352,12 @@ stereo_image_proc_SOURCE_DIR:STATIC=/home/ubuntu/jekibl-rtech/src/image_pipeline
 //The directory containing a CMake configuration file for stereo_msgs.
 stereo_msgs_DIR:PATH=/opt/ros/kinetic/share/stereo_msgs/cmake
 
+//Value Computed by CMake
+teleop_twist_keyboard_BINARY_DIR:STATIC=/home/ubuntu/jekibl-rtech/build/teleop_twist_keyboard
+
+//Value Computed by CMake
+teleop_twist_keyboard_SOURCE_DIR:STATIC=/home/ubuntu/jekibl-rtech/src/teleop_twist_keyboard
+
 //The directory containing a CMake configuration file for tf2.
 tf2_DIR:PATH=/opt/ros/kinetic/share/tf2/cmake
 
@@ -1111,6 +1375,9 @@ tf2_ros_DIR:PATH=/opt/ros/kinetic/share/tf2_ros/cmake
 
 //The directory containing a CMake configuration file for tf.
 tf_DIR:PATH=/opt/ros/kinetic/share/tf/cmake
+
+//The directory containing a CMake configuration file for tf_conversions.
+tf_conversions_DIR:PATH=/opt/ros/kinetic/share/tf_conversions/cmake
 
 //The directory containing a CMake configuration file for trajectory_msgs.
 trajectory_msgs_DIR:PATH=/opt/ros/kinetic/share/trajectory_msgs/cmake
@@ -1187,11 +1454,107 @@ turtlebot3_teleop_SOURCE_DIR:STATIC=/home/ubuntu/jekibl-rtech/src/turtlebot3/tur
 //The directory containing a CMake configuration file for urdf.
 urdf_DIR:PATH=/opt/ros/kinetic/share/urdf/cmake
 
+//The directory containing a CMake configuration file for urdfdom_py.
+urdfdom_py_DIR:PATH=/opt/ros/kinetic/share/urdfdom_py/cmake
+
 //The directory containing a CMake configuration file for visualization_msgs.
 visualization_msgs_DIR:PATH=/opt/ros/kinetic/share/visualization_msgs/cmake
 
+//The directory containing a CMake configuration file for warehouse_ros.
+warehouse_ros_DIR:PATH=/opt/ros/kinetic/share/warehouse_ros/cmake
+
 //The directory containing a CMake configuration file for xacro.
 xacro_DIR:PATH=/opt/ros/kinetic/share/xacro/cmake
+
+//Value Computed by CMake
+xarm5_moveit_config_BINARY_DIR:STATIC=/home/ubuntu/jekibl-rtech/build/xarm_ros/xarm5_moveit_config
+
+//Value Computed by CMake
+xarm5_moveit_config_SOURCE_DIR:STATIC=/home/ubuntu/jekibl-rtech/src/xarm_ros/xarm5_moveit_config
+
+//Value Computed by CMake
+xarm6_gripper_moveit_config_BINARY_DIR:STATIC=/home/ubuntu/jekibl-rtech/build/xarm_ros/xarm6_gripper_moveit_config
+
+//Value Computed by CMake
+xarm6_gripper_moveit_config_SOURCE_DIR:STATIC=/home/ubuntu/jekibl-rtech/src/xarm_ros/xarm6_gripper_moveit_config
+
+//Value Computed by CMake
+xarm6_moveit_config_BINARY_DIR:STATIC=/home/ubuntu/jekibl-rtech/build/xarm_ros/xarm6_moveit_config
+
+//Value Computed by CMake
+xarm6_moveit_config_SOURCE_DIR:STATIC=/home/ubuntu/jekibl-rtech/src/xarm_ros/xarm6_moveit_config
+
+//Value Computed by CMake
+xarm7_moveit_config_BINARY_DIR:STATIC=/home/ubuntu/jekibl-rtech/build/xarm_ros/xarm7_moveit_config
+
+//Value Computed by CMake
+xarm7_moveit_config_SOURCE_DIR:STATIC=/home/ubuntu/jekibl-rtech/src/xarm_ros/xarm7_moveit_config
+
+//Value Computed by CMake
+xarm_api_BINARY_DIR:STATIC=/home/ubuntu/jekibl-rtech/build/xarm_ros/xarm_api
+
+//The directory containing a CMake configuration file for xarm_api.
+xarm_api_DIR:PATH=/home/ubuntu/jekibl-rtech/devel/share/xarm_api/cmake
+
+//Dependencies for target
+xarm_api_LIB_DEPENDS:STATIC=
+
+//Value Computed by CMake
+xarm_api_SOURCE_DIR:STATIC=/home/ubuntu/jekibl-rtech/src/xarm_ros/xarm_api
+
+//Value Computed by CMake
+xarm_bringup_BINARY_DIR:STATIC=/home/ubuntu/jekibl-rtech/build/xarm_ros/xarm_bringup
+
+//Value Computed by CMake
+xarm_bringup_SOURCE_DIR:STATIC=/home/ubuntu/jekibl-rtech/src/xarm_ros/xarm_bringup
+
+//Value Computed by CMake
+xarm_controller_BINARY_DIR:STATIC=/home/ubuntu/jekibl-rtech/build/xarm_ros/xarm_controller
+
+//Value Computed by CMake
+xarm_controller_SOURCE_DIR:STATIC=/home/ubuntu/jekibl-rtech/src/xarm_ros/xarm_controller
+
+//Value Computed by CMake
+xarm_description_BINARY_DIR:STATIC=/home/ubuntu/jekibl-rtech/build/xarm_ros/xarm_description
+
+//Value Computed by CMake
+xarm_description_SOURCE_DIR:STATIC=/home/ubuntu/jekibl-rtech/src/xarm_ros/xarm_description
+
+//Value Computed by CMake
+xarm_device_BINARY_DIR:STATIC=/home/ubuntu/jekibl-rtech/build/xarm_ros/xarm_device
+
+//Value Computed by CMake
+xarm_device_SOURCE_DIR:STATIC=/home/ubuntu/jekibl-rtech/src/xarm_ros/xarm_device
+
+//Value Computed by CMake
+xarm_gazebo_BINARY_DIR:STATIC=/home/ubuntu/jekibl-rtech/build/xarm_ros/xarm_gazebo
+
+//Value Computed by CMake
+xarm_gazebo_SOURCE_DIR:STATIC=/home/ubuntu/jekibl-rtech/src/xarm_ros/xarm_gazebo
+
+//Value Computed by CMake
+xarm_gripper_BINARY_DIR:STATIC=/home/ubuntu/jekibl-rtech/build/xarm_ros/xarm_gripper
+
+//Value Computed by CMake
+xarm_gripper_SOURCE_DIR:STATIC=/home/ubuntu/jekibl-rtech/src/xarm_ros/xarm_gripper
+
+//Value Computed by CMake
+xarm_msgs_BINARY_DIR:STATIC=/home/ubuntu/jekibl-rtech/build/xarm_ros/xarm_msgs
+
+//The directory containing a CMake configuration file for xarm_msgs.
+xarm_msgs_DIR:PATH=/home/ubuntu/jekibl-rtech/devel/share/xarm_msgs/cmake
+
+//Value Computed by CMake
+xarm_msgs_SOURCE_DIR:STATIC=/home/ubuntu/jekibl-rtech/src/xarm_ros/xarm_msgs
+
+//Value Computed by CMake
+xarm_planner_BINARY_DIR:STATIC=/home/ubuntu/jekibl-rtech/build/xarm_ros/xarm_planner
+
+//Value Computed by CMake
+xarm_planner_SOURCE_DIR:STATIC=/home/ubuntu/jekibl-rtech/src/xarm_ros/xarm_planner
+
+//Dependencies for target
+xarm_ros_client_LIB_DEPENDS:STATIC=
 
 //The directory containing a CMake configuration file for xmlrpcpp.
 xmlrpcpp_DIR:PATH=/opt/ros/kinetic/share/xmlrpcpp/cmake
@@ -1346,7 +1709,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=30
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=54
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

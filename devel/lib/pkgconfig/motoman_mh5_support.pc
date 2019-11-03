@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/jekibl-rtech/devel
+
+Name: motoman_mh5_support
+Description: Description of motoman_mh5_support
+Version: 0.3.5
+Cflags: 
+Libs: -L/home/ubuntu/jekibl-rtech/devel/lib 
+Requires: 

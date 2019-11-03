@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/jekibl-rtech/install
+
+Name: xarm_bringup
+Description: Description of xarm_bringup
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ubuntu/jekibl-rtech/install/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/jekibl-rtech/devel
+
+Name: xarm_gazebo
+Description: Description of xarm_gazebo
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ubuntu/jekibl-rtech/devel/lib 
+Requires: 
