@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: dual_sia5d_support
+    relative_path: urdf/sia5d_ur5.xacro
+    xacro_args: "--inorder "
+  SRDF:
+    relative_path: config/dual_sia5d.srdf
+  CONFIG:
+    author_name: Peter-Sten Annus
+    author_email: petersten.annus@gmail.com
+    generated_timestamp: 1572991698

@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+
+<!--Generates a urdf from the macro in sia5_macro.xacro -->
+
+<robot name="dual_sia5d" xmlns:xacro="http://ros.org/wiki/xacro">
+	<xacro:arg name="transmission_hw_interface" default="hardware_interface/PositionJointInterface"/>
+	<xacro:include filename="$(find dual_sia5d_support)/urdf/dual_sia5d_macro.xacro"/>
+	<xacro:include filename="$(find dual_sia5d_support)/urdf/ur5.urdf.xacro" />
+
+	<xacro:motoman_sia5d prefix="sia5d_"/>
+	<xacro:ur5_robot prefix="ur5_" joint_limited="false" transmission_hw_interface="$(arg transmission_hw_interface)"/>
+
+	<link name="base_root">
+	  <collision>
+	    <origin rpy="0 0 0" xyz="0 0 0.05"/>
+	    <geometry>
+	      <box size="0.5 1 0.1"/>
+	    </geometry>
+	  </collision>
+	  <visual>
+	    <origin rpy="0 0 0" xyz="0 0 0.05"/>
+	    <geometry>
+	      <box size="0.5 1 0.1"/>
+	    </geometry>
+	  </visual>
+	</link>
+	<joint name="first_base_link-base_root" type="fixed">
+	  <origin xyz="0 0.35 0.1" rpy="0 0 0"/>
+	  <child link="sia5d_base_link"/>
+	  <parent link="base_root"/>
+	</joint>
+	<joint name="second_base_link-base_root" type="fixed">
+	  <origin xyz="0 -0.35 0.1" rpy="0 0 0"/>
+	  <child link="ur5_base_link"/>
+	  <parent link="base_root"/>
+	</joint>
+</robot>

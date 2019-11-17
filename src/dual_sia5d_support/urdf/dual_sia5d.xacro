@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+
+<!--Generates a urdf from the macro in sia5_macro.xacro -->
+
+<robot name="dual_sia5d" xmlns:xacro="http://ros.org/wiki/xacro">
+	<xacro:include filename="$(find dual_sia5d_support)/urdf/dual_sia5d_macro.xacro"/>
+	<xacro:motoman_sia5d prefix="first_"/>
+	<xacro:motoman_sia5d prefix="second_"/>
+
+	<link name="base_root" />
+	<joint name="first_base_link-base_root" type="fixed">
+	  <origin xyz="0 0.25 0" rpy="0 0 0"/>
+	  <child link="first_base_link"/>
+	  <parent link="base_root"/>
+	</joint>
+	<joint name="second_base_link-base_root" type="fixed">
+	  <origin xyz="0 -0.25 0" rpy="0 0 0"/>
+	  <child link="second_base_link"/>
+	  <parent link="base_root"/>
+	</joint>
+</robot>
